@@ -20,9 +20,8 @@
         <div class="bg-img" style="background-image: url('./img/background1.jpg');">
             <div class="overlay"></div>
         </div>
-        <nav id="nav" class="navbar nav-transparent">
+        <nav id="nav" class="navbar nav-transparent fixed">
             <div class="container">
-
                 <div class="navbar-header">
                     <div class="navbar-brand">
                         <a href="index.html">
@@ -61,9 +60,6 @@
         </div>
     </header>
 
-    <!-- /Header -->
-
-    <!-- About -->
     <div id="about" class="section md-padding">
         <div class="container">
             <div class="row">
@@ -94,13 +90,17 @@
             </div>
         </div>
     </div>
-    <!-- /About -->
+
+
     <div id="service" class="section md-padding">
+        <div class="bg-img" style="background-image: url('./img/background1.jpg');">
+            <div class="overlay"></div>
+        </div>
         <div class="container">
             <div class="row">
                 <div class="section-header text-center">
-                    <h2 class="title">What we offer</h2>
-                    <p>
+                    <h2 class="title white-text">What we offer</h2>
+                    <p class="white-text">
                         GKM IT is a family of engineers, designers and innovators with expertise in outsourced product
                         development and custom software development. We are consistently delivering for the past three
                         years - outsourcing solutions, quality software products, mobile applications and solutions for
@@ -108,10 +108,10 @@
                         to ensure quality work and client satisfaction.
                     </p>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 white-text">
                     <div class="service">
                         <i class="fa fa-diamond"></i>
-                        <h3>
+                        <h3 class="white-text">
                             Product Consulting
                         </h3>
                         <p>
@@ -123,10 +123,10 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 white-text">
                     <div class="service">
                         <i class="fa fa-mobile"></i>
-                        <h3>Mobile Application Development </h3>
+                        <h3 class="white-text">Mobile Application Development </h3>
                         <p>
                             Android <br />
                             ios - Swift 1.2, 2.0 <br />
@@ -135,10 +135,10 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 white-text">
                     <div class="service">
                         <i class="fa fa-cogs"></i>
-                        <h3>Web Application</h3>
+                        <h3 class="white-text">Web Application</h3>
                         <p>
                             Development <br />
                             Ruby on Rails/ Node JS/Python/PHP <br />
@@ -152,7 +152,7 @@
             </div>
         </div>
     </div>
-    <!-- /Service -->
+
 
     <div id="pricing" class="section md-padding">
         <div class="container">
@@ -237,10 +237,10 @@
                 </div>
                 <div class="col-md-8 col-md-offset-2">
                     <form class="contact-form">
-                        <input type="text" class="input" placeholder="Name">
-                        <input type="email" class="input" placeholder="Email">
-                        <input type="text" class="input" placeholder="Subject">
-                        <textarea class="input" placeholder="Message"></textarea>
+                        <input type="text" class="input" placeholder="Name" required>
+                        <input type="email" class="input" placeholder="Email" required>
+                        <input type="text" class="input" placeholder="Subject" required>
+                        <textarea class="input" placeholder="Message" required></textarea>
                         <button class="main-btn">Send message</button>
                     </form>
                 </div>
@@ -265,3 +265,4 @@
 </body>
 
 </html>
+
